@@ -91,6 +91,7 @@ p{
     color:white;
     font-size:40px;
     margin-top:100px;
+    z-index: 10;
 }
 
 .main-content{
@@ -103,20 +104,21 @@ p{
     background:maroon;
     border-radius:5px;
     width:70px;
-    display:block;
-    margin-left:auto;
     position: absolute; /*position: static*/
-    right: 20px;
+    right: 0;
+    left: 0;
+    margin: auto;
+    z-index: 3;
 }
 
 .sub-box{
     width:500px;
     height:200px;
-    background-color:purple;
+    background-color:#eee;
     position: absolute;
     left:0px;
     right:0px;
     margin:auto;
-    top:350px;
+    top:300px;
     text-align:center;
 }
