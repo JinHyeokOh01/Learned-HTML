@@ -84,6 +84,7 @@ p{
     background-position: center;
     filter: brightness(300%);
     padding:1px;
+    position: relative;
 }
 
 .main-title{
@@ -104,4 +105,6 @@ p{
     width:70px;
     display:block;
     margin-left:auto;
+    position: absolute; /*position: static*/
+    right: 20px;
 }
