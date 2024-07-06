@@ -108,3 +108,15 @@ p{
     position: absolute; /*position: static*/
     right: 20px;
 }
+
+.sub-box{
+    width:500px;
+    height:200px;
+    background-color:purple;
+    position: absolute;
+    left:0px;
+    right:0px;
+    margin:auto;
+    top:350px;
+    text-align:center;
+}
