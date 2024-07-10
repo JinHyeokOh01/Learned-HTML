@@ -1,3 +1,11 @@
+div{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+}
+
 .profile{
 width: 100px; 
 display: block; 
@@ -104,21 +112,28 @@ p{
     background:maroon;
     border-radius:5px;
     width:70px;
+    display:block;
+    margin-left:auto;
     position: absolute; /*position: static*/
-    right: 0;
-    left: 0;
-    margin: auto;
-    z-index: 3;
+    right: 20px;
 }
 
 .sub-box{
-    width:500px;
+    width:50%;
+    max-width:600px;
     height:200px;
     background-color:#eee;
     position: absolute;
     left:0px;
     right:0px;
     margin:auto;
-    top:300px;
+    top:350px;
     text-align:center;
+}
+
+input[type=text]{
+    padding:10px;
+    font-size:20px;
+    border:2px solid black;
+    border-radius:5px;
 }
