@@ -5,33 +5,34 @@
         <link href="hw2.css" rel="stylesheet">
     </head>
     <body>
-        <div class="container">
-            <div class="title">
-                <h3>Contact Us</h3>
-            </div>
-            <div>
-                <p>Your Email</p>
-            </div>
-            <div>
-                <input type="email" placeholder="email@example.com">
-            </div>
-            <div style="float:left">
-                <p>First Name</p>
-                <input type="text">
-            </div>
-            <div>
-                <p>Last Name</p>
-                <input type="text">
-            </div>
-            <div>
-                <p>Message</p>
-                <input type="text">
-            </div>
-            <div>
-                <br>
-                <input type="checkbox"><p>Subscribe</p>
-                <button type="submit">SEND</button>
-            </div>
+       <div class="form-background">
+        <div class="form-white">
+            <form>
+                <div class="w-100">
+                    <h3>Contact Us</h3>
+                    <p>Your Email</p>
+                    <input class="form-input" type="email" placeholder="email@example.com">
+                </div>
+                <div class="w-50">
+                    <p>First Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div class="w-50">
+                    <p>Last Name</p>
+                    <input class="form-input" type="text">
+                </div>
+                <div style="clear:both"></div>
+                <div class="w-100">
+                    <p>Message</p>
+                    <textarea class="form-input"></textarea>
+                </div>
+                <div>
+                    <input id="sub" type="checkbox">
+                    <label for="sub">Subscribe</label>
+                    <button style="background-color:yellow" type="submit">SEND</button>
+                </div>
+            </form>
         </div>
+       </div>
     </body>
 </html>
